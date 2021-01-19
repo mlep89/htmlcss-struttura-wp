@@ -39,14 +39,21 @@ header div {
   float: left;
   height: 28vh;
   width: 25%;
-  margin-top: 2vh;
+  border-top: 8px;
+  border-left: 0;
+  border-right:0;
+  border-bottom: 8px;
+  border-style: solid;
+  border-color: blue;
   background-color: lightblue;
 }
 .centered {
   float: left;
   height: 28vh;
-  width: 46%;
-  margin: 2vh;
+  width: 50%;
+  border: 8px;
+  border-style: solid;
+  border-color: blue;
   background-color: lightblue;
 }
 footer {
